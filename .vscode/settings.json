@@ -1,0 +1,13 @@
+{
+ // enable globally (here: format on save)
+ "editor.formatOnSave": true,
+ "prettier.singleQuote": true,
+ "prettier.printWidth": 70,
+ "[javascript]": {
+   "editor.defaultFormatter": "esbenp.prettier-vscode"
+ },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": ["javascript"]
+}
